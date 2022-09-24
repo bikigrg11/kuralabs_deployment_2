@@ -28,10 +28,7 @@ pipeline {
     }
     stage ('Deploy') {
       steps {
-        sh '''
-        sudo su - jenkins
-        eb deploy url-shortener-dev
-        '''
+        sh '/var/lib/jenkins/.local/bin/eb deploy url-shortener-dev'    
       } 
     }
   } 

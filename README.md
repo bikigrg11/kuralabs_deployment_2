@@ -17,7 +17,7 @@
 </tr>
 </table>
 
-<h3>Description:</h3><br> 
+<h3>Description:</h3>
 <li> Use Jenkins for CI / CD Pipeline - Build, Test and Deploy application 
 <li>	Use Elastic Beanstalk to deploy application
 <li>	Use AWS CloudWatch to Monitor
@@ -25,7 +25,6 @@
 
 
 <h3> Pre-requisites: </h3> 
-<br>
 <li>	AWS account
 <li> CI tool of choice (Jenkins)
 <li> GitHub repository you’d like to deploy
